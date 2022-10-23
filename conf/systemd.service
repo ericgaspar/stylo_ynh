@@ -6,10 +6,10 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
+Environment=NODE_ENV=production
 WorkingDirectory=__FINALPATH__/
-Environment="PATH=__ENV_PATH__"
-Environment="NODE_ENV=production"
-ExecStart=/usr/bin/yarn start
+Environment="__YNH_NODE_LOAD_PATH__"
+ExecStart=__YNH_NODE__ start
 Restart=on-failure
 RestartSec=5
 StartLimitInterval=60s
