@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/EcrituresNumeriques/stylo/archive/refs/tags/v1.7.12.tar.gz
+SOURCE_SUM=225db054fe6a04d59c4f3ac5097da617b2657bc126d46fbc1cb4d5ed4ddd6c48
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
