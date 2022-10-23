@@ -129,7 +129,8 @@ ynh_script_progression --message="Building $app... (this will take some time and
 
 pushd $final_path
 	ynh_use_nodejs
-	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH npm clean-install
+	npm clean-install
+	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH npm clean-install
 popd
 
 #=================================================
